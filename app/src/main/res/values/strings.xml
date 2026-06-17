@@ -1,3 +1,54 @@
 <resources>
     <string name="app_name">RideX</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="sign_in_subtitle">Please enter your details to sign in.</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login_button">Login</string>
+    <string name="or">or</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="dont_have_account">Don\'t have an account? %1$s</string>
+    <string name="already_have_account">Already have an account? %1$s</string>
+    <string name="create_account">Create an account</string>
+    <string name="log_in">Log in</string>
+
+    <!-- Onboarding -->
+    <string name="skip">Skip</string>
+    <string name="get_started">Get Started</string>
+    <string name="next">Next</string>
+    <string name="onboarding_title_1">Safe and affordable rides</string>
+    <string name="onboarding_desc_1">Enjoy peace of mind with our safety features and transparent pricing for every journey.</string>
+    <string name="onboarding_title_2">Track your ride live</string>
+    <string name="onboarding_desc_2">Follow your driver\'s progress on the map in real-time from request to drop-off.</string>
+    <string name="onboarding_title_3">Book rides instantly</string>
+    <string name="onboarding_desc_3">Request a ride in seconds and get picked up by a nearby top-rated driver.</string>
+
+    <!-- Forgot Password -->
+    <string name="forgot_password_title">Forgot Password</string>
+    <string name="forgot_password_subtitle">Enter your email address to receive a verification code.</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="remember_password">Remember your password? %1$s</string>
+
+    <!-- Reset Password -->
+    <string name="reset_password_title">Reset Password</string>
+    <string name="reset_password_subtitle">Please create a new password that you don\'t use on any other site.</string>
+    <string name="new_password_hint">New Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="update_password">Update Password</string>
+    <string name="cancel_return_login">Cancel &amp; Return to Login</string>
+    <string name="password_length_requirement">Must be at least 8 characters long.</string>
+
+    <!-- Sign Up -->
+    <string name="create_account_title">Create Account</string>
+    <string name="create_account_subtitle">Join RideX and start moving.</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="phone_number_hint">Phone Number</string>
+
+    <!-- Verify Phone -->
+    <string name="verify_phone_title">Verify Phone</string>
+    <string name="verify_phone_subtitle">Enter the 4-digit code sent to your mobile number.</string>
+    <string name="didnt_receive_code">Didn\'t receive a code? %1$s</string>
+    <string name="resend_code">Resend (0:57)</string>
+    <string name="verify">Verify</string>
 </resources>
