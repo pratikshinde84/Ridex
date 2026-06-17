@@ -86,6 +86,11 @@
         <item name="cornerSize">@dimen/rounded_lg</item>
     </style>
 
+    <style name="ShapeAppearance.RideX.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
     <!-- Typography Styles -->
     <style name="TextAppearance.RideX.DisplayLarge" parent="TextAppearance.Material3.DisplayLarge">
         <item name="android:textSize">57sp</item>
