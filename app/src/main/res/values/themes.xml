@@ -1,9 +1,150 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.RideX" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Base.Theme.RideX" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary Brand Colors -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="onPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="onPrimaryContainer">@color/on_primary_container</item>
+
+        <!-- Secondary Brand Colors -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="onSecondary">@color/on_secondary</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
+        <item name="onSecondaryContainer">@color/on_secondary_container</item>
+
+        <!-- Tertiary Brand Colors -->
+        <item name="colorTertiary">@color/tertiary</item>
+        <item name="onTertiary">@color/on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/tertiary_container</item>
+        <item name="onTertiaryContainer">@color/on_tertiary_container</item>
+
+        <!-- Error Colors -->
+        <item name="colorError">@color/error</item>
+        <item name="onError">@color/on_error</item>
+        <item name="colorErrorContainer">@color/error_container</item>
+        <item name="onErrorContainer">@color/on_error_container</item>
+
+        <!-- Neutral Colors -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorOutlineVariant">@color/outline_variant</item>
+
+        <!-- Status Bar and Navigation Bar -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Shape Appearance -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.RideX.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.RideX.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.RideX.LargeComponent</item>
+
+        <!-- Typography -->
+        <item name="textAppearanceDisplayLarge">@style/TextAppearance.RideX.DisplayLarge</item>
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.RideX.HeadlineLarge</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.RideX.TitleLarge</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.RideX.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.RideX.BodyMedium</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.RideX.LabelLarge</item>
+        <item name="textAppearanceLabelSmall">@style/TextAppearance.RideX.LabelSmall</item>
+
+        <!-- Component Styles -->
+        <item name="materialButtonStyle">@style/Widget.RideX.Button</item>
+        <item name="materialCardViewStyle">@style/Widget.RideX.Card</item>
     </style>
 
     <style name="Theme.RideX" parent="Base.Theme.RideX" />
+
+    <!-- Shape Styles -->
+    <style name="ShapeAppearance.RideX.SmallComponent" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/rounded_sm</item>
+    </style>
+
+    <style name="ShapeAppearance.RideX.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/rounded_md</item>
+    </style>
+
+    <style name="ShapeAppearance.RideX.LargeComponent" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/rounded_lg</item>
+    </style>
+
+    <!-- Typography Styles -->
+    <style name="TextAppearance.RideX.DisplayLarge" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="android:textSize">57sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+
+    <style name="TextAppearance.RideX.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.01</item>
+    </style>
+
+    <style name="TextAppearance.RideX.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.RideX.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.RideX.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextAppearance.RideX.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="TextAppearance.RideX.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <!-- Component Widgets -->
+    <style name="Widget.RideX.Button" parent="Widget.Material3.Button">
+        <item name="shapeAppearance">@style/ShapeAppearance.RideX.LargeComponent</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingTop">@dimen/spacing_md</item>
+        <item name="android:paddingBottom">@dimen/spacing_md</item>
+    </style>
+
+    <style name="Widget.RideX.Button.Accent">
+        <item name="backgroundTint">@color/secondary</item>
+        <item name="android:textColor">@color/on_secondary</item>
+    </style>
+
+    <style name="Widget.RideX.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">2dp</item>
+        <item name="strokeColor">@color/outline_variant</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cardBackgroundColor">@color/surface_container_low</item>
+    </style>
+
+    <style name="Widget.RideX.BottomSheet" parent="Widget.Material3.BottomSheet">
+        <item name="shapeAppearance">@style/ShapeAppearance.RideX.BottomSheet</item>
+    </style>
+
+    <style name="ShapeAppearance.RideX.BottomSheet" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">@dimen/bottom_sheet_corner_radius</item>
+        <item name="cornerSizeTopRight">@dimen/bottom_sheet_corner_radius</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
 </resources>

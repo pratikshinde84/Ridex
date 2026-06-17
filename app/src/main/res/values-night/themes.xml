@@ -1,7 +1,44 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.RideX" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <!-- Primary Brand Colors -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="onPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="onPrimaryContainer">@color/on_primary_container</item>
+
+        <!-- Secondary Brand Colors -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="onSecondary">@color/on_secondary</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
+        <item name="onSecondaryContainer">@color/on_secondary_container</item>
+
+        <!-- Tertiary Brand Colors -->
+        <item name="colorTertiary">@color/tertiary</item>
+        <item name="onTertiary">@color/on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/tertiary_container</item>
+        <item name="onTertiaryContainer">@color/on_tertiary_container</item>
+
+        <!-- Error Colors -->
+        <item name="colorError">@color/error</item>
+        <item name="onError">@color/on_error</item>
+        <item name="colorErrorContainer">@color/error_container</item>
+        <item name="onErrorContainer">@color/on_error_container</item>
+
+        <!-- Neutral Colors -->
+        <!-- In dark mode, we might want to adjust these, but using provided palette for now -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorOutlineVariant">@color/outline_variant</item>
+
+        <!-- Status Bar and Navigation Bar -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
     </style>
 </resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing -->
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="margin_mobile">16dp</dimen>
+    <dimen name="margin_tablet">24dp</dimen>
+    <dimen name="gutter">16dp</dimen>
+
+    <!-- Rounding -->
+    <dimen name="rounded_sm">4dp</dimen>
+    <dimen name="rounded_default">8dp</dimen>
+    <dimen name="rounded_md">12dp</dimen>
+    <dimen name="rounded_lg">16dp</dimen>
+    <dimen name="rounded_xl">24dp</dimen>
+    <dimen name="rounded_full">9999dp</dimen>
+    
+    <!-- Component Specific Rounding -->
+    <dimen name="button_corner_radius">16dp</dimen>
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="bottom_sheet_corner_radius">28dp</dimen>
+</resources>
