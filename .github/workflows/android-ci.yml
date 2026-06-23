@@ -23,7 +23,15 @@ jobs:
 
       - run: chmod +x gradlew
 
+      - run: ./gradlew lintDebug
+
       - run: ./gradlew test
+
+      - name: Run Instrumented Tests
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 29
+          script: ./gradlew connectedCheck
 
       - run: ./gradlew assembleDebug
 
@@ -31,3 +39,9 @@ jobs:
         with:
           name: app-debug
           path: app/build/outputs/apk/debug/*.apk
+      - name: Upload Reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports
+          path: app/build/reports/
