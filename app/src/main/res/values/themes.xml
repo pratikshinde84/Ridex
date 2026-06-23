@@ -59,6 +59,7 @@
         <!-- Component Styles -->
         <item name="materialButtonStyle">@style/Widget.RideX.Button</item>
         <item name="materialCardViewStyle">@style/Widget.RideX.Card</item>
+        <item name="bottomNavigationStyle">@style/Widget.RideX.BottomNavigationView</item>
     </style>
 
     <style name="Widget.RideX.EditText" parent="Widget.AppCompat.EditText">
@@ -69,6 +70,16 @@
     </style>
 
     <style name="Theme.RideX" parent="Base.Theme.RideX" />
+
+    <style name="Widget.RideX.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemActiveIndicatorStyle">@style/Widget.RideX.BottomNavigationView.ActiveIndicator</item>
+    </style>
+
+    <style name="Widget.RideX.BottomNavigationView.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/secondary_fixed</item>
+        <item name="android:width">64dp</item>
+        <item name="android:height">32dp</item>
+    </style>
 
     <!-- Shape Styles -->
     <style name="ShapeAppearance.RideX.SmallComponent" parent="ShapeAppearance.Material3.SmallComponent">
@@ -172,6 +183,13 @@
         <item name="android:inputType">number</item>
         <item name="android:maxLength">1</item>
         <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/divider_color</item>
+        <item name="android:layout_marginStart">56dp</item>
     </style>
 
 </resources>

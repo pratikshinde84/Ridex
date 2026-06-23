@@ -133,13 +133,13 @@ public class OnboardingActivity extends AppCompatActivity {
             if (viewPager.getCurrentItem() + 1 < adapter.getItemCount()) {
                 viewPager.setCurrentItem(viewPager.getCurrentItem() + 1);
             } else {
-                startActivity(new Intent(this, MainActivity.class));
+                startActivity(new Intent(this, LoginActivity.class));
                 finish();
             }
         });
 
         tvSkip.setOnClickListener(v -> {
-            startActivity(new Intent(this, MainActivity.class));
+            startActivity(new Intent(this, LoginActivity.class));
             finish();
         });
     }
